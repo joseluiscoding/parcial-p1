@@ -13,10 +13,10 @@
 }
 
 body {
-    text-align: center;
-    width: 780px;
+    width: 650px;
     margin: 40px auto;            
     border: 1px solid var(--celesteOscuro);
+    border-radius: 5px ;
 }
 
 header {
@@ -25,8 +25,58 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px ;
 }
 
 header h2{
     color: #2C6B8A;
+}
+
+main .imgUPSB {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .imgUPSB img {
+    height: 150px;
+}
+
+main .form-login {
+    width: 600px;
+    margin: auto;
+}
+
+main .form-login .controls{
+    width: 100%;
+    background:#F4F5F3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border: 1px solid #CECECE;
+    font-size: 20px;
+}
+
+hr {
+    width: 600px;
+    margin: auto; 
+    border: 0.1px solid #F1F1F1;
+}
+
+main .form-login .botonIniciarSesion{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main .form-login .boton{
+    background-color: var(--celesteOscuro);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 17px;
+    color: white;
 }

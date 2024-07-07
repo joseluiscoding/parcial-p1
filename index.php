@@ -35,7 +35,6 @@
                 <p>Alumno</p>
             </div>
         </section>
-
     </main>
     <footer>
         <p>Sistema Virtual en Linea - Derechos reservados &copy 2015-2016</p>
