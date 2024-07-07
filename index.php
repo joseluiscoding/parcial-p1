@@ -27,11 +27,11 @@
         <hr />
         <section class="section2">
             <div class="personal" href="#">
-                <img src="img/icon-personal.png" alt="">
+                <img src="img/icon-personal.png" alt="iconPersonal">
                 <p>Personal</p>
             </div>
             <div class="alumno">
-                <img src="img/icon-alumno.png" alt="">
+                <img src="img/icon-alumno.png" alt="iconAlumno">
                 <p>Alumno</p>
             </div>
         </section>
