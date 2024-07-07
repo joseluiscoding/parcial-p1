@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    text-align: center;
+    width: 780px;
+    margin: 30px auto;              /*Mismo porcentaje izquierda derecha*/
+}
+
+header {
+    height: 220px;
+    background-color: #6DC4DD;
+    padding: 20px;
+}
+
+header .imgCabezera {
+    background-color: white;
+    height: 100px;
+}
+
+header .imgCabezera img {
+    height: 100px;
+}
+
+header .titleSistem {
+    background-color: #D9EDF7;
+    color: #2C6B8A;
+    padding: 5px;
+}
+
+header .navBar {
+    height: 40px;
+    background-color: white;
+}
+
+header .navBar ul {
+    list-style: none;
+}
+
+header .navBar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: gray;
+}
+
+header .navBar ul li a:hover{
+   background-color: #E7E7E7;
+}
+
+header .navBar .opciones > li {
+    float: left;
+}
+
+header .navBar li ul {
+    text-align: left;
+    background-color: white;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+header .navBar li:hover > ul {
+    display: block;
+}
+
+header li ul li {
+    position: relative;
+} 
+
+
+
+
+
