@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: arial;
 }
 
 :root{
@@ -14,19 +14,25 @@
 
 body {
     text-align: center;
-    width: 700px;
+    width: 780px;
     margin: 20px auto;              /*Mismo porcentaje izquierda derecha*/
     border: 1px solid var(--celesteOscuro);
 }
 
 hr {
     width: 660px;
-    margin: auto;   
+    margin: auto; 
+    border: 0.1px solid #F1F1F1;
+}
+
+header {
+    text-transform: uppercase;
 }
 
 header .nombreUniv {
     background-color: var(--celesteOscuro);
     color: var(--textoClaro);
+    font-size: 10px;
     height: 65px;                   /*Lo de a continuacion es propiedad flexbox:*/  
     display: flex;                  /*Indicar que la sección se puede mover*/    
     justify-content: center;        /*Justifica el contenido respecto a los laterales*/
@@ -36,6 +42,7 @@ header .nombreUniv {
 header .nombreSist {
     background-color: var(--celesteClaro);
     color: var(--textoOscuro);
+    font-size: 14px;
     height: 65px;
     display: flex;                   
     justify-content: center;       
@@ -43,8 +50,8 @@ header .nombreSist {
 }
 
 main .section1 {
-    height: px;
-    padding: 50px;
+    height: 190px;
+    padding: 40px;
 }
 
 main .section1 img {
@@ -54,7 +61,7 @@ main .section1 img {
 main .section2 {
     display: flex; 
     justify-content: space-between;
-    margin:  20px 200px;
+    margin:  20px 245px;
 }
 
 main .section2 .personal {
@@ -85,4 +92,15 @@ main .section2 .alumno img{
 main .section2 p {
     color: white;
     padding-top: 20px;
+}
+
+footer {
+    height: 38px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.1px solid #F1F1F1;
+    background-color: #F5F5F5;
+
 }
