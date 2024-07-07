@@ -29,6 +29,7 @@ header .imgCabezera img {
 header .titleSistem {
     background-color: #D9EDF7;
     color: #2C6B8A;
+    font-size: 12px;
     padding: 5px;
 }
 
@@ -70,7 +71,44 @@ header .navBar li:hover > ul {
 
 header li ul li {
     position: relative;
-} 
+}
+
+main {
+    height: 480px;
+    background-color: #72B1FF;
+}
+main h1 {
+    padding: 20px;
+    color:white;
+}
+main .imgAprendizaje img{
+    height: 350px;
+}
+
+footer {
+    height: 80px;
+    background-color: #6DC4DD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  0px;
+}
+
+footer .derechos{
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+footer .logosFacTwit{
+    
+    width: 120px;
+    justify-content: right;
+}
+
+footer .logosFacTwit img {
+    height: 30px;
+}
 
 
 
