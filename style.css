@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --celesteOscuro: #428BCA;
+    --celesteClaro: #D9EDF7;
+    --textoClaro: white;
+    --textoOscuro: #2C6B8A;
+}
+
+body {
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;              /*Mismo porcentaje izquierda derecha*/
+    border: 1px solid var(--celesteOscuro);
+}
+
+header .nombreUniv {
+    background-color: var(--celesteOscuro);
+    color: var(--textoClaro);
+    height: 65px;
+    display: flex;                  /*Indicar que la sección se puede mover*/    
+    justify-content: center;        /*Justifica el contenido respecto a los laterales*/
+    align-items: center;            /*Justifica el contenido respecto a la parte superior e inferior*/
+}
+
+header .nombreSist {
+    background-color: var(--celesteClaro);
+    color: var(--textoOscuro);
+    height: 65px;
+    display: flex;                   
+    justify-content: center;       
+    align-items: center;                
+}
+
+main .section1 {
+    height: 200px;
+    padding: 50px;
+}
+
+main .section1 img {
+    width: 100px;
+}
