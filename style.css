@@ -15,7 +15,7 @@
 body {
     text-align: center;
     width: 780px;
-    margin: 20px auto;              /*Mismo porcentaje izquierda derecha*/
+    margin: 10px auto;              /*Mismo porcentaje izquierda derecha*/
     border: 1px solid var(--celesteOscuro);
 }
 
