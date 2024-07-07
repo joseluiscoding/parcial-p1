@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+:root{
+    --celesteOscuro: #428BCA;
+    --celesteClaro: #D9EDF7;
+    --textoClaro: white;
+    --textoOscuro: #2C6B8A;
+}
+
+body {
+    text-align: center;
+    width: 780px;
+    margin: 40px auto;            
+    border: 1px solid var(--celesteOscuro);
+}
+
+header {
+    height: 65px;
+    background-color: var(--celesteClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    color: #2C6B8A;
+}
