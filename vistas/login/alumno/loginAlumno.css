@@ -66,7 +66,6 @@ hr {
 }
 
 main .form-login .botonIniciarSesion{
-
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -88,3 +87,4 @@ main .form-login .botonIniciarSesion button{
     display: flex;
     align-items: center;
 }
+
