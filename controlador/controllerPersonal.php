@@ -8,8 +8,8 @@
             break;
 
         case 2:
-            $usuario = "renzo";
-            $contraseña = "123";
+            $usuario = "petrlik";
+            $contraseña = "petrlik1234";
             if($usuario == $_GET['usuario'] && $contraseña == $_GET['clave']){
                 $pagina = "../vistas/Personal/ventanaPersonal.php";
             }else{

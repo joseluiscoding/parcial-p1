@@ -26,7 +26,7 @@
             <input class="controls" type="password" name="clave" id="clave" placeholder="Ingrese su Clave">
             <hr />
             <div class="botonIniciarSesion">
-                <button type="submit" onclick="btnIniciar()">
+                <button onclick="btnIniciar()">
                     <img src="../../../img/candado.png" alt="imgCando"> Iniciar Sesión
                 </button>
             </div>

@@ -6,8 +6,8 @@
             break;
 
         case 2:
-            $usuario = "neil";
-            $contraseña = "123";
+            $usuario = "jose";
+            $contraseña = "jose1234";
             if($usuario == $_GET['usuario'] && $contraseña == $_GET['clave']){
                 $pagina = "../vistas/Alumno/ventanaAlumno.php";
             }else{
@@ -15,5 +15,5 @@
             }
         break;
     }
-    header('Location:'.$pagina);
+    header('Location:'.$pagina);  
 ?>
