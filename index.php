@@ -26,14 +26,18 @@
         </section>
         <hr />
         <section class="section2">
-            <div class="personal" href="#">
-                <img src="img/icon-personal.png" alt="iconPersonal">
-                <p>Personal</p>
-            </div>
-            <div class="alumno">
-                <img src="img/icon-alumno.png" alt="iconAlumno">
-                <p>Alumno</p>
-            </div>
+            <a href="vistas/login/personal/loginPersonal.php">
+                <div class="personal">
+                    <img src="img/icon-personal.png" alt="iconPersonal" >
+                    <p>Personal</p>
+                </div>
+            </a>
+            <a href="vistas/login/alumno/loginAlumno.php">
+                <div class="alumno" href="#">
+                    <img src="img/icon-alumno.png" alt="iconAlumno">
+                    <p>Alumno</p>
+                </div>
+            </a>
         </section>
     </main>
     <footer>

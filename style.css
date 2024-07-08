@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: arial;
+    text-decoration: none;
 }
 
 :root{
@@ -102,5 +103,4 @@ footer {
     align-items: center;
     border-top: 0.1px solid #F1F1F1;
     background-color: #F5F5F5;
-
 }
