@@ -57,6 +57,11 @@ header .navBar ul li a {
     color: gray;
 }
 
+.config {
+    float: right;
+    margin-left: 250px;
+}
+
 header .navBar ul li:hover{
     background-color: #E7E7E7;
 }
