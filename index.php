@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ParcialP1</title>
     <link rel="stylesheet" href="style.css">
+    
+    <script>
+        function btnPersonal(){
+            document.form.method = "GET";
+            document.form.op.value = "1";
+            document.form.action = "controlador/controllerPersonal.php";
+            document.form.submit();
+        }
+
+        function btnAlumno(){
+            document.form.method = "GET";
+            document.form.op.value = "1";
+            document.form.action = "controlador/controllerAlumno.php";
+            document.form.submit();
+        }
+    </script>
 
 </head>
 <body>
@@ -17,29 +33,28 @@
         </div>
     </header>
     <main>
-
         <section class="section1">
             <img src="img/icon-accesSystem.png" alt="imgCandado">
             <div class="text-section1">
                 <p>Acceso al Sistema</p>
-            </div>
+            </div>  
         </section>
         <hr />
-        <section class="section2">
-            <a href="vistas/login/personal/loginPersonal.php">
-                <div class="personal">
-                    <img src="img/icon-personal.png" alt="iconPersonal" >
-                    <p>Personal</p>
-                </div>
-            </a>
-            <a href="vistas/login/alumno/loginAlumno.php">
-                <div class="alumno" href="#">
-                    <img src="img/icon-alumno.png" alt="iconAlumno">
-                    <p>Alumno</p>
-                </div>
-            </a>
-        </section>
+        <form name="form" >
+            <input type="hidden" name="op">
+                <section class="section2">
+                    <div class="personal" onclick="btnPersonal()">
+                        <img   src="img/icon-personal.png" alt="iconPersonal" >
+                        <p>Personal</p>
+                    </div>
+                    <div class="alumno" onclick="btnAlumno()">
+                        <img src="img/icon-alumno.png" alt="iconAlumno">
+                        <p>Alumno</p>
+                    </div>
+                </section>
+        </form>
     </main>
+</form>
     <footer>
         <p>Sistema Virtual en Linea - Derechos reservados &copy 2015-2016</p>
     </footer>
