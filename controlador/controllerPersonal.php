@@ -10,11 +10,13 @@
         case 2:
             $usuario = "renzo";
             $contraseña = "123";
-            if($usuario == $_GET['username'] && $contraseña == $_GET['password']){
+            if($usuario == $_GET['usuario'] && $contraseña == $_GET['clave']){
                 $pagina = "../vistas/Personal/ventanaPersonal.php";
             }else{
                 $pagina = "../vistas/login/personal/loginPersonal.php";
             }
+            
+            break;
             
     }
     header('Location:'.$pagina);

@@ -6,8 +6,7 @@
     <title>LoginAlumno</title>
 
     <link rel="stylesheet" href="loginAlumno.css">
-    <script src="loginAlumno.js"></script>
-    
+    <script src="scriptAlumno.js"></script>
 </head>
 <body>
     <header>
@@ -20,6 +19,7 @@
             <img src="../../../img/logo-UPSB.png" alt="logo-UPSB">
         </div>
         <form name="form" class="form-login">
+            <input type="hidden" name="op">
             <h3> Usuario: </h3>
             <input class="controls" type="usuario" name="usuario" id="usuario" placeholder="Ingrese su codigo de usuario">
             <h3> Clave: </h3>

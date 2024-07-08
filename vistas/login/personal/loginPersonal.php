@@ -6,7 +6,7 @@
     <title>LoginPersonal</title>
 
     <link rel="stylesheet" href="loginPersonal.css">
-    <script src="loginPersonal.js"></script>
+    <script src="scriptPersonal.js"></script>
 </head>
 <body>
     <header>
@@ -19,6 +19,7 @@
             <img src="../../../img/logo-UPSB.png" alt="logo-UPSB">
         </div>
         <form name="form" class="form-login">
+            <input type="hidden" name="op">             <!--Mandamos el op -->
             <h3> Tipo: </h3>
             <select class="controls">
                 <option>------------------</option>
@@ -32,7 +33,7 @@
             <input class="controls" type="password" name="clave" id="clave" placeholder="Ingrese su Clave">
             <hr />
             <div class="botonIniciarSesion">
-                <button type="submit" onclick="btnIniciar()">
+                <button onclick="btnIniciar()">
                     <img src="../../../img/candado.png" alt="imgCando"> Iniciar Sesión
                 </button>
             </div>
