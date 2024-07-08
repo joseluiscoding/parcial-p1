@@ -7,7 +7,7 @@
 
 body {
     text-align: center;
-    width: 780px;
+    width: 900px;
     margin: 30px auto ;              /*Mismo porcentaje izquierda derecha*/
     border: 1px solid #428BCA;
 }
@@ -37,10 +37,10 @@ header nav ul li a{
     text-decoration: none;
     color: orange;
     padding: 10px ;
+    display: inline-block;
 }
 
-header nav ul li a:hover{
-    padding: 10px ;
+header nav ul li:hover{
     background-color: black;
     color: white;
     
@@ -50,8 +50,17 @@ header nav .opc > li {
     float: left;
 }
 
-main img{
-    width: 780px;
+header nav ul li .logos {
+    padding-top: 5px;
+    padding-right: 0;
+    height: 40px; 
+    float: left;
+}
+
+main {
+    height: 400px;
+    background: url(/img/img-estudiantes.jpg) no-repeat center center ;
+    background-size: cover;
 }
 
 footer {
