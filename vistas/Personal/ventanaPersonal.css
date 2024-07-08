@@ -38,27 +38,40 @@ header .navBar {
     background-color: white;
 }
 
+header .navBar img {
+    height: 22px; 
+    margin-top: 6px ;
+    padding-left: 7px;
+    float: left;
+}
+
 header .navBar ul {
     list-style: none;
 }
 
-header .navBar ul li a{
+header .navBar ul li a {
     text-decoration: none;
     padding: 10px;
-    display: block;
+    display: inline-block;
+    font-size: 13px;
     color: gray;
 }
 
-header .navBar ul li a:hover{
-   background-color: #E7E7E7;
+header .navBar ul li:hover{
+    background-color: #E7E7E7;
+}
+
+header .navBar ul li ul a:hover{
+    background-color: #E7E7E7;
+    display: block;
 }
 
 header .navBar .opciones > li {
     float: left;
+    text-align: left;
 }
 
 header .navBar li ul {
-    text-align: left;
     background-color: white;
     display: none;
     position: absolute;
@@ -69,7 +82,7 @@ header .navBar li:hover > ul {
     display: block;
 }
 
-header li ul li {
+header .navBar li ul li {
     position: relative;
 }
 
@@ -77,10 +90,12 @@ main {
     height: 480px;
     background-color: #72B1FF;
 }
+
 main h1 {
     padding: 20px;
     color:white;
 }
+
 main .imgAprendizaje img{
     height: 350px;
 }
